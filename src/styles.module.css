@@ -7,3 +7,102 @@
   font-size: 2em;
   text-align: center;
 }
+
+.primary {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  border-radius: 12px;
+}
+
+.primary:hover {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+}
+
+
+.secondary {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: green;
+  border-color: green;
+  border-radius: 12px;
+}
+
+.secondary:hover {
+  color: blue;
+  background-color: white;
+  border-color: blue;
+  border-radius: 12px;
+}
+
+
+.dashed {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white; 
+  border-style: dashed;
+  border-radius: 12px;
+}
+
+.dashed:hover {
+  color: #0096c7;
+  background-color: white;
+  border-color: #0096c7;
+  border-radius: 12px;
+}
+
+
+.text {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.text:hover{
+  box-shadow:0 0 10px #4a4a4a;
+}
+
+.link {
+  background-color: transparent;
+  color: #03437a;
+  border: none;
+  padding: 10px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: underline;
+  border-radius: 12px;
+}
+
+.link:hover {
+  color: #0096c7;
+  border-radius: 12px;
+}
